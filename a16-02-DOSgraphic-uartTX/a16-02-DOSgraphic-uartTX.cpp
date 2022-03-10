@@ -91,7 +91,7 @@ int uart_oneByte_display(HWND hWind, HDC hDC, int origin_x, int origin_y, char p
 	char chComp;
 
 	base_x = origin_x; base_y = origin_y;
-	// idle(black)
+	// idle(black)123
 	m = 0;
 	for (i = 0; i < windth_x; i++) {
 		SetPixel(hDC, (base_x + (m * windth_x) + i), base_y, RGB(25, 25, 25));
